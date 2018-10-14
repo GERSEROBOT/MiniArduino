@@ -1,0 +1,9 @@
+(module HOLE (layer F.Cu) (tedit 5A8846C8)
+  (fp_text reference J** (at -2.1 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value HOLE (at 1.8 0) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+  )
+  (pad 1 thru_hole rect (at 0 0) (size 1.2 1.2) (drill 0.7) (layers *.Cu *.Mask))
+)
